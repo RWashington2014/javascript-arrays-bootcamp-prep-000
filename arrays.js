@@ -14,7 +14,8 @@ function addElementToBeginningOfArray(array, element){
 
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
-  var array
-  var element
+
+  array.push(element);
+  return array
 
 }
